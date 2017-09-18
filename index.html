@@ -82,17 +82,24 @@
 	font-family: avenir;
 }
 
-@media (max-width: 500px){
+@media (min-width:320px)  { 
 
 	#bigb {
-		display:none;
+		display:block;
 		margin: auto;
-		width: 10px;
-		height: 300px;
+		width: 200px;
+		height: 90%;
 		margin-top: 3%;
 	}
 
-	}
+}
+
+
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
 
 </style>
 
@@ -115,7 +122,7 @@
 <div id="hello" style="position:absolute; z-index:300; margin-left: 56%; margin-top: 2%;">
 
 <text style="color:white; font-family: avenir; font-size: 24pt; letter-spacing: 5px">Jared Bass</text>
-<br><a href="/Users/jaredbass/Documents/jared_bass.pdf"> My resume</a>
+<br><a href="jared_bass.pdf"> My resume</a>
 <br><a href="http://iovine-young.usc.edu"> My major</a>
 <br><a href="https://github.com/jaredbass"> My code</a>
 
